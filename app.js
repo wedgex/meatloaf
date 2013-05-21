@@ -1,5 +1,6 @@
 var express = require('express');
 var request = require('request');
+var pjson = require('./package.json');
 
 var app = express();
 
@@ -28,7 +29,7 @@ app.get('/weltys', function(req, res) {
     status = 'NO';
   }
 
-  res.send({ status:  status });
+  res.send({ status:  status, version: pjson.version });
  }); 
 });
 
