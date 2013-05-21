@@ -32,4 +32,4 @@ app.get('/weltys', function(req, res) {
  }); 
 });
 
-app.listen(8383);
+app.listen(process.env.PORT || 8383);
