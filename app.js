@@ -3,8 +3,10 @@ var request = require('request');
 
 var app = express();
 
+app.use(express.static(__dirname + '/public'));
+
 app.get('/', function(req, res) {
-  response.send('hello world');
+  res.render('index.html');
 });
 
 app.get('/weltys', function(req, res) {

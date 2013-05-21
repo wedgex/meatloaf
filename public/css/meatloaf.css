@@ -1,0 +1,17 @@
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blackwatch {
+  background-image: url('/img/blackwatch.jpg');
+  background-repate: repeat;
+}
+
+.moving-pictures {
+  background-image: url('/img/moving_pictures.jpg');
+  background-repate: center;
+}
