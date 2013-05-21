@@ -1,17 +1,22 @@
+body {
+  background-image: url('/img/red_plaid.jpg');
+  background-repate: repeat;
+}
+
 .red {
   background-color: red;
+  background-image: none;
 }
 
 .green {
   background-color: green;
+  background-image: none;
 }
 
 .blackwatch {
   background-image: url('/img/blackwatch.jpg');
-  background-repate: repeat;
 }
 
 .moving-pictures {
   background-image: url('/img/moving_pictures.jpg');
-  background-repate: center;
 }
