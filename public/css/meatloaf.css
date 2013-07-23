@@ -13,10 +13,43 @@ body {
   background-image: none;
 }
 
+.working {
+  background-image: url('/img/red_plaid.jpg');
+  background-repeat: repeat;
+}
+
 .blackwatch {
   background-image: url('/img/blackwatch.jpg');
+  background-repeat: repeat;
 }
 
 .moving-pictures {
   background-image: url('/img/moving_pictures.jpg');
+  background-repeat: repeat;
+}
+
+footer {
+  font-family: "Comic Sans MS";
+  position: fixed;
+  bottom: 10px;
+  left: 10%;
+  right: 10%;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+footer div {
+  margin: 0 auto;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  background-size: 100% 100%;
+  vertical-align: middle;
+}
+
+footer div p {
+  color: white;
 }
